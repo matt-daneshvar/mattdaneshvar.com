@@ -34,7 +34,7 @@
                 <a href="https://github.com/matt-daneshvar" target="_blank">Github</a> or
                 <a href="https://www.linkedin.com/in/matt-daneshvar/" target="_blank">Linkedin</a>,
                 see my <a href="/resume">resume</a>,
-                <br/> or just say hi at
+                or just say hi at
                 <a href="mailto:matt.daneshvar@gmail.com">matt.daneshvar@gmail.com</a><span>;
                 I'd be happy to chat!</span>
             </p>
