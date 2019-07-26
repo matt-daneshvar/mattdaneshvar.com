@@ -1,0 +1,4 @@
+.turbolinks-progress-bar {
+  height: 1px;
+  @apply bg-primary;
+}

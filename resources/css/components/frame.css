@@ -1,0 +1,37 @@
+.frame {
+  position: relative;
+
+  .edge
+  {
+    content: " ";
+    position: absolute;
+
+    width:1rem;
+    height:1rem;
+    @apply border-primary;
+
+    &.edge-t
+    {
+      top: -.5rem;
+      @apply border-t;
+    }
+
+    &.edge-b
+    {
+      bottom: -.5rem;
+      @apply border-b;
+    }
+
+    &.edge-l
+    {
+      left: -.5rem;
+      @apply border-l;
+    }
+
+    &.edge-r
+    {
+      right: -.5rem;
+      @apply border-r;
+    }
+  }
+}
