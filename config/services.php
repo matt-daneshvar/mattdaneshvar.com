@@ -45,11 +45,11 @@ return [
     ],
 
     'google-analytics' => [
-        'id' => env('GOOGLE_ANALYTICS_ID')
+        'id' => env('GOOGLE_ANALYTICS_ID'),
     ],
 
     'hotjar' => [
-        'id' => env('HOTJAR_ID')
+        'id' => env('HOTJAR_ID'),
     ],
 
 ];
