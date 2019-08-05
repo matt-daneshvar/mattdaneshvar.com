@@ -12,7 +12,7 @@
     </p>
 
     <p>
-        Ambitious with a touch of naive, I built every single piece of work from scratch
+        Ambitious with a touch of naivety, I built every single piece of work from scratch
         <em>(I thought why use 3rd party packages when I can build it myself)</em>,
         built my very own backend framework
         <em>(just like every other PHP developer has done at some point)</em>,
@@ -23,7 +23,7 @@
     </p>
 
     <p>
-        My interest was always beyond being a 9-5 employee; together with the team we fixed up mistakes in our
+        My interest was always beyond being a 9-5 employee; together with the team we fixed mistakes in our
         accounting department, built a new rate card, moved all our clients to cloud, and started shipping our very
         first internal products.
     </p>
@@ -59,7 +59,7 @@
     </p>
     <p>
         My average day is 60% working on our internal products
-        <em>(many of which are lead by other members of the team)</em>,
+        <em>(many of which are led by other members of the team)</em>,
         20% assisting with the projects we do for our clients,
         15% business development,
         and the rest, walking to and back from the pantry with my cup of tea.
@@ -89,10 +89,10 @@
     'title' => 'Freelance Web Developer',
 ])
     <p>
-        Ever since I learnt a little bit about web, I started picking up freelance projects to expose myself to more
-        and to boost my finances. I've built and maintained websites, e-commerce stores, and web apps in a few
-        different domains including a toolbox to assist in operations and fulfillment of an online store, an app to
-        digitize the registration process of a school, and an app to automate B2B transactions for a Fintech startup.
+        Ever since I learnt a little bit about writing code for web, I started picking up freelance projects
+        to expose myself to more domains and to boost my finances.
+        I've built and maintained websites, e-commerce stores, and web apps covering a few different domains
+        including f&b, education, and Fintech.
     </p>
     <p>
         Aside from working office hours 4 days a week at 4 Thirteen, I get some extra time in my weekdays
