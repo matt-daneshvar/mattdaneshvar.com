@@ -9,5 +9,5 @@
 @include('resume.partials.item', [
     'period' => '2009 - 2011',
     'title' => 'High School Diploma Majoring in Math and Physics',
-    'organization' => 'Shahid Beheshti (SAMPAD) High School'
+    'organization' => 'National Organization for Development of Exceptional Talents (SAMPAD)'
 ])
