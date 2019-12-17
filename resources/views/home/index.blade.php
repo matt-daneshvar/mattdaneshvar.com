@@ -38,6 +38,9 @@
                 <a href="mailto:matt.daneshvar@gmail.com">matt.daneshvar@gmail.com</a><span>;
                 I'd be happy to chat!</span>
             </p>
+            <p class="mt-10">
+                Other links: <a href="/reads">Reads</a>
+            </p>
         </div>
     </div>
 @stop
