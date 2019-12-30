@@ -9,6 +9,7 @@
             Here I'll be listing my <strong>most recent reads</strong>,
             hopefully (and eventually) together with some thoughts on each book.
             I'm loosely ordering them based on the time I started reading each with the most recent ones at the top.
+            My current top 5 titles are marked with a <span class="text-primary">★</span>.
         </p>
 
         <p class="text-justify mb-10">
@@ -37,16 +38,19 @@
         @include('reads.partials.book', [
             'title' => 'Remote: Office Not Required',
             'author' => 'Jason Fried, David Heinemeier Hansson',
+            'star' => true
         ])
 
         @include('reads.partials.book', [
             'title' => 'Factfulness',
             'author' => 'Hans Rosling, Ola Rosling, Anna Rosling Rönnlund',
+            'star' => true
         ])
 
         @include('reads.partials.book', [
             'title' => 'It Doesn\'t Have to Be Crazy at Work',
             'author' => 'Jason Fried, David Heinemeier Hansson',
+            'star' => true
         ])
 
         @include('reads.partials.book', [
@@ -77,6 +81,7 @@
         @include('reads.partials.book', [
             'title' => 'Man\'s Search For Meaning',
             'author' => 'Viktor Frankl',
+            'star' => true
         ])
 
         @include('reads.partials.book', [
@@ -87,6 +92,7 @@
         @include('reads.partials.book', [
             'title' => 'Creativity Inc',
             'author' => 'Ed Catmull',
+            'star' => true
         ])
 
         @include('reads.partials.book', [
