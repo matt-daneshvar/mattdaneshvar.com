@@ -19,9 +19,21 @@
         </p>
 
         @include('reads.partials.book', [
+           'title' => 'Zero to One',
+           'author' => 'Peter Thiel, Blake Masters',
+           'current' => true
+        ])
+
+        @include('reads.partials.book', [
+           'title' => 'Building a StoryBrand: Clarify Your Message So Customers Will Listen',
+           'author' => 'Donald Miller',
+           'current' => false
+        ])
+
+        @include('reads.partials.book', [
            'title' => '7 Habits of Highly Effective People',
            'author' => 'Stephen Covey',
-           'current' => true
+           'current' => false
         ])
 
         @include('reads.partials.book', [
