@@ -9,7 +9,7 @@
             Here I'll be listing my <strong>most recent reads</strong>,
             hopefully (and eventually) together with some thoughts on each book.
             I'm loosely ordering them based on the time I started reading each with the most recent ones at the top.
-            My current top 5 titles are marked with a <span class="text-primary">★</span>.
+            My favorite titles are marked with a <span class="text-primary">★</span>.
         </p>
 
         <p class="text-justify mb-10">
@@ -17,6 +17,13 @@
             but didn't really know the right place to do it.
             If you know a platform or a community to keep this list in a better shape, please point me there!
         </p>
+
+        @include('reads.partials.book', [
+           'title' => 'Atomic Habits',
+           'author' => 'James Clear',
+           'current' => true,
+           'star' => true
+        ])
 
         @include('reads.partials.book', [
            'title' => 'Zero to One',
@@ -36,7 +43,7 @@
         @include('reads.partials.book', [
            'title' => 'Utopia For Realists',
            'author' => 'Rutger Bregman',
-           'current' => true
+           'star' => true
         ])
 
         @include('reads.partials.book', [
