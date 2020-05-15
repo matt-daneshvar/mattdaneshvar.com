@@ -19,9 +19,14 @@
         </p>
 
         @include('reads.partials.book', [
+           'title' => 'Freakonomics',
+           'author' => 'Stephen J. Dubner, Steven Levitt',
+           'current' => true,
+        ])
+
+        @include('reads.partials.book', [
            'title' => 'Atomic Habits',
            'author' => 'James Clear',
-           'current' => true,
            'star' => true
         ])
 
