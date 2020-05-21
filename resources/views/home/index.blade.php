@@ -39,7 +39,8 @@
                 I'd be happy to chat!</span>
             </p>
             <p class="mt-10">
-                Other links: <a href="/reads">Reads</a>
+                Other links:
+                <a href="/reads">Reads</a>
             </p>
         </div>
     </div>
