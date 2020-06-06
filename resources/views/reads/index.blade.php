@@ -19,9 +19,20 @@
         </p>
 
         @include('reads.partials.book', [
+           'title' => 'Thinking, Fast and Slow',
+           'author' => 'Daniel Kahneman',
+           'current' => true
+        ])
+
+        @include('reads.partials.book', [
+           'title' => 'Shoe Dog',
+           'author' => 'Phil Knight',
+        ])
+
+        @include('reads.partials.book', [
            'title' => 'Freakonomics',
            'author' => 'Stephen J. Dubner, Steven Levitt',
-           'current' => true,
+           'star' => true
         ])
 
         @include('reads.partials.book', [
