@@ -12,12 +12,6 @@
             My favorite titles are marked with a <span class="text-primary">★</span>.
         </p>
 
-        <p class="text-justify mb-10">
-            I've been thinking of keeping track of these for myself for the longest time,
-            but didn't really know the right place to do it.
-            If you know a platform or a community to keep this list in a better shape, please point me there!
-        </p>
-
         @include('reads.partials.book', [
            'title' => 'Thinking, Fast and Slow',
            'author' => 'Daniel Kahneman',
