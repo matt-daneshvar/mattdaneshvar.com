@@ -5,7 +5,7 @@
 @section('content')
     <div class="container max-w-2xl mx-auto py-8 p-6">
 
-        <p class="text-justify">
+        <p class="text-justify mb-10">
             Here I'll be listing my <strong>most recent reads</strong>,
             hopefully (and eventually) together with some thoughts on each book.
             I'm loosely ordering them based on the time I started reading each with the most recent ones at the top.
