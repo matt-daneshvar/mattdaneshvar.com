@@ -6,8 +6,8 @@
     <title>Matt Daneshvar @if(view()->hasSection('title')) / @endif @yield('title')</title>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/css/app.css">
-    <script src="/js/app.js"></script>
+    <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
+    <script src="{{ mix('/js/app.js') }}"></script>
     @include('partials.trackers')
 </head>
 <body class="flex flex-col">

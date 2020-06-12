@@ -8,6 +8,7 @@ mix.js('resources/js/app.js', 'public/js')
     require('postcss-nested'),
     require('postcss-custom-properties'),
   ])
+  .version()
   .options({
     processCssUrls: false
   }).purgeCss()
