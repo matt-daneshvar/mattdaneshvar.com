@@ -7,7 +7,7 @@
         <div class="w-full md:w-2/5">
             <div class="frame">
                 <picture class="w-full frame">
-                    <source media="(min-width: 768px)" srcset="/img/me.jpg">
+                    <source media="(min-width: 768px)" srcset="/img/me-square.jpg">
                     <img src="/img/me-horizontal.jpg" alt="Me">
                 </picture>
                 <div class="edge edge-t edge-l"></div>
