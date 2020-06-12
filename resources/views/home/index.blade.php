@@ -40,6 +40,7 @@
             </p>
             <p class="mt-10">
                 Other links:
+                <a href="/projects">Projects</a>,
                 <a href="/reads">Reads</a>
             </p>
         </div>
