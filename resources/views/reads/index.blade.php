@@ -13,9 +13,14 @@
         </p>
 
         @include('reads.partials.book', [
+           'title' => 'The Lean Startup',
+           'author' => 'Eric Ries',
+           'current' => true
+        ])
+
+        @include('reads.partials.book', [
            'title' => 'Thinking, Fast and Slow',
            'author' => 'Daniel Kahneman',
-           'current' => true
         ])
 
         @include('reads.partials.book', [
