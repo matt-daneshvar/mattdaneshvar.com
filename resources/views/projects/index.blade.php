@@ -61,6 +61,13 @@
                 'description' => 'Tool for setting up custom email notifications for Google Forms.',
                 'url' => 'googleformsnotifications.code413.io'
             ])
+
+            @include('projects.partials.thumbnail', [
+                'name' => 'Certificate Maker',
+                'role' => 'Creator',
+                'description' => 'Tool for creating and sending professional certificates in batches.',
+                'url' => 'www.certificatemaker.app'
+            ])
         </div>
 
         <h2 class="text-3xl mt-10 mb-2">Open Source</h2>
