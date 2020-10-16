@@ -13,9 +13,14 @@
         </p>
 
         @include('reads.partials.book', [
+           'title' => 'Why We Sleep',
+           'author' => 'Matthew Walker',
+           'current' => true
+        ])
+
+        @include('reads.partials.book', [
            'title' => 'Hooked',
            'author' => 'Nir Eyal',
-           'current' => true
         ])
 
         @include('reads.partials.book', [
