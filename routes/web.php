@@ -6,4 +6,5 @@ Route::view('/projects', 'projects.index');
 Route::view('/utopia', 'utopia.index');
 Route::view('/utopia/organization', 'utopia.organization');
 Route::view('/resume', 'resume.index');
+Route::view('/cv', 'resume.cv');
 Route::get('/resume/pdf', 'ResumeDownloadController');
