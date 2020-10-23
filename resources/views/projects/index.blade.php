@@ -56,10 +56,10 @@
             ])
 
             @include('projects.partials.thumbnail', [
-                'name' => 'G Forms Notifications',
+                'name' => 'Form Octo',
                 'role' => 'Creator',
                 'description' => 'Tool for setting up custom email notifications for Google Forms.',
-                'url' => 'googleformsnotifications.code413.io'
+                'url' => 'www.formocto.com'
             ])
 
             @include('projects.partials.thumbnail', [
