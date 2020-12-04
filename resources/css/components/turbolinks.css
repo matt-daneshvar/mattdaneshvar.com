@@ -1,4 +1,5 @@
 .turbolinks-progress-bar {
   height: 1px;
-  @apply bg-primary;
+    top:72px;
+    background-color: #742a2a80;
 }
