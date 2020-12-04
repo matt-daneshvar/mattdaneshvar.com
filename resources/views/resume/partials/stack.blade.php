@@ -1,4 +1,5 @@
 <h2 class="text-xl uppercase mt-8">Stack</h2>
+
 <div class="hidden md:block">
     <p class="mb-4">
         PHP
@@ -10,10 +11,6 @@
         ES6
         <br/>
         Vue
-        <br/>
-        React
-        <br/>
-        jQuery
     </p>
 
     <p class="mb-4">
@@ -21,9 +18,10 @@
         <br/>
         PostCSS
         <br/>
-        SASS
+        Tailwind CSS
     </p>
 </div>
+
 <div class="md:hidden">
     <p class="mb-0">
         PHP
