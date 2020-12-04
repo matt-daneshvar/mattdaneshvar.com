@@ -12,8 +12,6 @@
         @if($description ?? null)
             <p class="text-gray-700">{{ $description }}</p>
         @endif
-
-<!--        <div class="mt-auto text-sm border-gray-100 text-gray-500">{{ $url }}</div>-->
     </div>
     <div class="ml-auto mt-auto text-red-800 pl-1">
 
