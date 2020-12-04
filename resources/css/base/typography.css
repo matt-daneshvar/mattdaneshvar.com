@@ -15,7 +15,10 @@ p {
 }
 
 a {
-    @apply text-primary;
-    @apply border-b;
+    @apply text-primary border-b transition duration-200;
     border-color: #742a2a24;
+
+    &:hover{
+        border-color: #742a2a80;
+    }
 }
