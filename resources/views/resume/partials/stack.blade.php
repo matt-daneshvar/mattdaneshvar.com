@@ -35,10 +35,6 @@
         ES6
         -
         Vue
-        -
-        React
-        -
-        jQuery
     </p>
 
     <p class="mb-0">
@@ -46,6 +42,6 @@
         -
         PostCSS
         -
-        SASS
+        Tailwind CSS
     </p>
 </div>

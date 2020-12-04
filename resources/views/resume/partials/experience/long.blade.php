@@ -71,7 +71,7 @@
     'title' => 'Freelance Web Developer',
 ])
     <p>
-        Ever since I learnt a little bit about writing code for web, I started picking up freelance projects
+        Ever since I learned a little bit about writing code for web, I started picking up freelance projects
         to expose myself to more business domains and ideas.
         I've built and maintained websites and web apps for businesses in education, fashion, food and beverage, fintech, and a few other industries.
     </p>
