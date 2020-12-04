@@ -12,7 +12,7 @@
                 @include('resume.partials.other-details')
                 @include('resume.partials.contact')
             </div>
-            <div class="w-full order-1 md:order-2 md:w-1/12 md:ml-10">
+            <div class="flex-1 order-1 md:order-2 md:ml-4">
                 @include('resume.partials.links')
                 @include('resume.partials.stack')
             </div>
