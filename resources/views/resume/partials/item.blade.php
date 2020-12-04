@@ -1,7 +1,16 @@
-<div style="">
-    @if($period ?? null)<small class="text-gray-500">{{ $period }}</small>@endif
-    <h3 class="text-primary text-lg">{{ $title ?? '' }}</h3>
-    @if($organization ?? null)<p>{{ $organization }}</p>@endif
+<div class="mb-4">
+    <h3 class="text-lg leading-tight text-primary mb-0">{{ $title ?? '' }}</h3>
 
-    {{ $slot ?? '' }}
+    <div class="flex items-center">
+        @if($organization ?? null)<p class="mb-0">{{ $organization }}</p>@endif
+
+        @if(isset($period))
+            <span class="mx-1 text-gray-500">·</span>
+            <span class="text-gray-500">{{ $period }}</span>
+        @endif
+    </div>
+
+    <div>
+        {{ $slot ?? '' }}
+    </div>
 </div>

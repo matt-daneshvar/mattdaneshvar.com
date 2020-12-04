@@ -1,4 +1,4 @@
-<h2 class="text-xl uppercase mt-8">Education</h2>
+<h2 class="text-xl uppercase mt-8 mb-1">Education</h2>
 
 @include('resume.partials.item', [
        'period' => '2012 - 2015',
@@ -9,5 +9,5 @@
 @include('resume.partials.item', [
     'period' => '2009 - 2011',
     'title' => 'High School Diploma Majoring in Math and Physics',
-    'organization' => 'National Organization for Development of Exceptional Talents (SAMPAD)'
+    'organization' => 'National Org. for Development of Exceptional Talents'
 ])

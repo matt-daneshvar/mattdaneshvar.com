@@ -1,4 +1,4 @@
-<h2 class="text-xl uppercase mt-8">Stack</h2>
+<h2 class="text-xl uppercase mt-8 mb-1">Stack</h2>
 
 <div class="hidden md:block">
     <p class="mb-4">
@@ -8,38 +8,38 @@
     </p>
 
     <p class="mb-4">
-        ES6
+        JavaScript
         <br/>
         Vue
     </p>
 
     <p class="mb-4">
-        Webpack
+        Tailwind CSS
         <br/>
         PostCSS
         <br/>
-        Tailwind CSS
+        Webpack
     </p>
 </div>
 
 <div class="md:hidden">
     <p class="mb-0">
         PHP
-        -
+        <span class="text-gray-500">·</span>
         Laravel
     </p>
 
     <p class="mb-0">
-        ES6
-        -
+        JavaScript
+        <span class="text-gray-500">·</span>
         Vue
     </p>
 
     <p class="mb-0">
-        Webpack
-        -
-        PostCSS
-        -
         Tailwind CSS
+        <span class="text-gray-500">·</span>
+        PostCSS
+        <span class="text-gray-500">·</span>
+        Webpack
     </p>
 </div>

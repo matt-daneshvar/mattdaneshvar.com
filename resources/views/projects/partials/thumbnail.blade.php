@@ -13,7 +13,4 @@
             <p class="text-gray-700">{{ $description }}</p>
         @endif
     </div>
-    <div class="ml-auto mt-auto text-red-800 pl-1">
-
-    </div>
 </div>
