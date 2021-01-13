@@ -11,9 +11,14 @@
         </p>
 
         @include('reads.partials.book', [
+           'title' => 'Getting Real',
+           'author' => 'Basecamp',
+           'current' => true
+        ])
+
+        @include('reads.partials.book', [
            'title' => 'Homo Deus',
            'author' => 'Yuval Noah Harari',
-           'current' => true
         ])
 
         @include('reads.partials.book', [
