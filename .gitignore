@@ -14,6 +14,7 @@ yarn-error.log
 # Compiled Assets
 /public/css/app.css
 /public/js/app.js
+/public/mix-manifest.json
 
 # Sitemap
 /public/sitemap.xml

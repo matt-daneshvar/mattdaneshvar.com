@@ -1,4 +1,4 @@
-<h2 class="text-xl uppercase mt-8">Experience</h2>
+<h2 class="text-xl uppercase mt-8 mb-1">Experience</h2>
 
 @include('resume.partials.item', [
     'period' => '2019 - Current',

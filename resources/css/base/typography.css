@@ -1,22 +1,24 @@
-body
-{
-  @apply text-gray-700;
+body {
+    @apply text-gray-700;
 }
 
 h1, h2, h3 {
-  @apply text-black;
+    @apply text-black;
 }
 
-h1
-{
-  @apply text-xl mb-2;
+h1 {
+    @apply text-xl mb-2;
 }
 
 p {
-  @apply mb-2;
+    @apply mb-2;
 }
 
 a {
-  @apply text-primary;
-  @apply border-primary border-b;
+    @apply text-primary border-b transition duration-200;
+    border-color: #742a2a24;
+
+    &:hover{
+        border-color: #742a2a80;
+    }
 }

@@ -1,23 +1,16 @@
-<div class="w-full px-1 mb-2 flex sm:w-1/2" style="min-height: 12rem">
-    <a href="https://{{ $url }}"
-       class="group w-full border p-5 flex border-gray-300 hover:border-red-800 duration-200 transition-all"
-       target="_blank">
-        <div class="flex flex-col">
-            <div class="flex mb-2 items-center">
-                <h3 class="text-lg font-bold">{{ $name }}</h3>
-                @if(isset($role))
-                    <span class="mx-1 text-gray-300">·</span>
-                    <span class="">{{ $role  }}</span>
-                @endif
-            </div>
-            @if($description ?? null)
-                <p class="text-gray-700 mt-1">{{ $description }}</p>
+<div class="block mb-6">
+    <div class="flex flex-col">
+        <div class="flex mb-0 items-center">
+            <a href="https://{{ $url }}" target="_blank" class="border-0">
+                <h3 class=" text-primary inline-block">{{ $name }}</h3>
+            </a>
+            @if(isset($role))
+                <span class="mx-1 text-gray-300">·</span>
+                <span class="text-gray-500 text-sm">{{ $role  }}</span>
             @endif
-
-            <div class="mt-auto text-sm border-gray-100 text-gray-500">{{ $url }}</div>
         </div>
-        <div class="ml-auto mt-auto text-red-800 pl-1">
-            <div data-feather="chevron-right" class="transition-all duration-200 transform group-hover:translate-x-2">&gt;</div>
-        </div>
-    </a>
+        @if($description ?? null)
+            <p class="text-gray-700">{{ $description }}</p>
+        @endif
+    </div>
 </div>

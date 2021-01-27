@@ -6,16 +6,45 @@
     <div class="container max-w-2xl mx-auto py-8 p-6">
 
         <p class="text-justify mb-10">
-            Here I'll be listing my <strong>most recent reads</strong>,
-            hopefully (and eventually) together with some thoughts on each book.
-            I'm loosely ordering them based on the time I started reading each with the most recent ones at the top.
+            My most recent reads, loosely ordered based on the time I started reading each with the most recent ones at the top.
             My favorite titles are marked with a <span class="text-primary">★</span>.
         </p>
 
         @include('reads.partials.book', [
+           'title' => 'David and Goliath',
+           'author' => 'Malcolm Gladwell',
+           'current' => true
+        ])
+
+        @include('reads.partials.book', [
+           'title' => 'Getting Real',
+           'author' => 'Basecamp',
+        ])
+
+        @include('reads.partials.book', [
+           'title' => 'Homo Deus',
+           'author' => 'Yuval Noah Harari',
+        ])
+
+        @include('reads.partials.book', [
+           'title' => 'Stillness Is the Key',
+           'author' => 'Ryan Holiday',
+        ])
+
+        @include('reads.partials.book', [
+           'title' => 'Predictably Irrational',
+           'author' => 'Dan Ariely',
+        ])
+
+        @include('reads.partials.book', [
+           'title' => 'Deep Work',
+           'author' => 'Cal Newport',
+        ])
+
+        @include('reads.partials.book', [
            'title' => 'Why We Sleep',
            'author' => 'Matthew Walker',
-           'current' => true
+           'star' => true
         ])
 
         @include('reads.partials.book', [
