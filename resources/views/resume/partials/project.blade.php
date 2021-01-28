@@ -4,7 +4,7 @@
             <a href="https://{{ $url }}" target="_blank" class="border-0">
                 <h3 class=" text-primary inline-block">{{ $name }}</h3>
             </a>
-            <span class="mx-1 text-gray-500">·</span>
+            <span class="mx-1 text-gray-500 hidden print:inline">·</span>
             <a href="https://{{ $url }}" target="_blank" class="text-gray-500 border-0 hidden print:inline">https://{{ $url }}</a>
         </div>
         <p class="text-gray-700 mb-2">{{ $description }}</p>
