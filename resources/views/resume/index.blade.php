@@ -9,8 +9,12 @@
             <div class="w-full md:w-10/12 order-2 lg:order-1">
                 @include('resume.partials.experience.' . (request()->has('long') ? 'long' : 'short'))
                 @include('resume.partials.education')
-                @include('resume.partials.other-details')
-                @include('resume.partials.contact')
+                @include('resume.partials.stack-detailed')
+
+                <div class="page-break-before print:-mb-56">
+                    @include('resume.partials.other-details')
+                    @include('resume.partials.contact')
+                </div>
             </div>
             <div class="flex-1 order-1 md:order-2 md:ml-4">
                 @include('resume.partials.links')

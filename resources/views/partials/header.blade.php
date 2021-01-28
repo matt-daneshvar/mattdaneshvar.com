@@ -1,4 +1,4 @@
-<header class="border-b text-center">
+<header class="border-b text-center top-0 left-0 w-full print:fixed">
     <div class="container mx-auto py-6">
         <a href="/" class="border-0">Matt Daneshvar</a>
         @if(view()->hasSection('title'))
@@ -9,3 +9,5 @@
         @endif
     </div>
 </header>
+
+<div class="print:h-20"></div>

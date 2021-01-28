@@ -1,12 +1,6 @@
 <h2 class="text-xl uppercase mt-8 mb-1">Experience</h2>
 
 @include('resume.partials.item', [
-    'period' => '2019 - Current',
-    'title' => 'Founder',
-    'organization' => 'Race.my'
-])
-
-@include('resume.partials.item', [
     'period' => '2014 - Current',
     'title' => 'Head of Technology',
     'organization' => '4 Thirteen Group'

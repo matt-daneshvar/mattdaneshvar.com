@@ -10,3 +10,4 @@
 
 /* Utilities */
 @import "tailwindcss/utilities";
+@import 'utilities/print.css';
