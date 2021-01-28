@@ -1,5 +1,7 @@
+/* purgecss start ignore */
 .turbolinks-progress-bar {
   height: 1px;
     top:68px;
     background-color: #742a2a80;
 }
+/* purgecss end ignore */
