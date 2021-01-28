@@ -2,7 +2,7 @@
     <div class="container max-w-2xl mx-auto py-6 flex items-center justify-center print:justify-start">
         <div>
             <div>
-                <a href="/" class="border-0">Matt Daneshvar</a>
+                <a href="https://mattdaneshvar.com" class="border-0">Matt Daneshvar</a>
 
                 @if(view()->hasSection('title'))
                     <span class="text-gray-500">/</span>
