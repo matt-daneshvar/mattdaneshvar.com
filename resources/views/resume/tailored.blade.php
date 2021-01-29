@@ -6,6 +6,6 @@
 @stop
 
 @section('header.subtitle')
-    <div class="text-gray-700 text-sm hidden print:block">Tailored for <em>FreshWorks Studio</em></div>
+    <div class="text-gray-700 text-sm hidden print:block">Tailored for <em>Acme Inc.</em></div>
 @stop
 
