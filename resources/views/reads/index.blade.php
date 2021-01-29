@@ -11,9 +11,14 @@
         </p>
 
         @include('reads.partials.book', [
+           'title' => 'Getting To Yes',
+           'author' => 'Roger Fisher, William Ury, Bruce Patton',
+           'current' => true
+        ])
+
+        @include('reads.partials.book', [
            'title' => 'David and Goliath',
            'author' => 'Malcolm Gladwell',
-           'current' => true
         ])
 
         @include('reads.partials.book', [
@@ -91,7 +96,7 @@
         ])
 
         @include('reads.partials.book', [
-           'title' => 'Building a StoryBrand: Clarify Your Message So Customers Will Listen',
+           'title' => 'Building a StoryBrand',
            'author' => 'Donald Miller',
         ])
 
@@ -112,7 +117,7 @@
         ])
 
         @include('reads.partials.book', [
-            'title' => 'Remote: Office Not Required',
+            'title' => 'Remote',
             'author' => 'Jason Fried, David Heinemeier Hansson',
             'star' => true
         ])

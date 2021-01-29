@@ -69,7 +69,7 @@
             ])
         </div>
 
-        <h2 class="text-3xl mt-10 mb-2">Open Source</h2>
+        <h2 class="text-3xl mt-10 mb-2 page-break-before">Open Source</h2>
 
         <div class="">
 
