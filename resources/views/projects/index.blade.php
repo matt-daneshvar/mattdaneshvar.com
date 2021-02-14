@@ -48,13 +48,6 @@
             ])
 
             @include('projects.partials.thumbnail', [
-                'name' => 'Paywell',
-                'role' => 'Co-creator',
-                'description' => 'Web app to help businesses keep good track of everyone\'s salary.',
-                'url' => 'www.paywell.app'
-            ])
-
-            @include('projects.partials.thumbnail', [
                 'name' => 'Form Octo',
                 'role' => 'Creator',
                 'description' => 'Tool for setting up custom email notifications for Google Forms.',
