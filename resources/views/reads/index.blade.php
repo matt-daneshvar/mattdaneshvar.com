@@ -11,9 +11,14 @@
         </p>
 
         @include('reads.partials.book', [
+           'title' => '21 Lessons for the 21st Century',
+           'author' => 'Yuval Noah Harari',
+           'current' => true
+        ])
+
+        @include('reads.partials.book', [
            'title' => 'Becoming',
            'author' => 'Michelle Obama',
-           'current' => true
         ])
 
         @include('reads.partials.book', [
